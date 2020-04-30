@@ -47,3 +47,8 @@ copies = int(input('How many copies would you like? '))
 # Print the copies of the result
 for i in range(copies):
     print(result)
+
+# Extra number 2 ===============
+
+# Oops!!  I already did this in extra number one.  I should read more 
+# closely.  :-(

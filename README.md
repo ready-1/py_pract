@@ -1,4 +1,4 @@
-#Py_Pract
+# Py_Pract
 This repo holds a few projects I have completed to learn Python.
 
 ## Environment

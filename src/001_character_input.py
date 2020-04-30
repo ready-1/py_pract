@@ -17,5 +17,15 @@ of operations exists in Python)
 2. Print out that many copies of the previous message on separate lines. 
 (Hint: the string "\n is the same as pressing the ENTER button)
 """
+import datetime as dt
 
-print('hello world')
+
+# Initial project spec ===============
+# Ask the user for their name
+name = input('Enter your name: ')
+# Ask the user for their age
+age = input('Enter your age: ')
+# calculate the year they will turn 100 years old
+
+# print the message
+print(f'Your name is {name} and you are {age} years old.')

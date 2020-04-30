@@ -37,10 +37,13 @@ century = (100 - int(age)) + int(dt.date.today().year)
 # create the result
 result = f'\nYour name is {name} and you are {age} years old.'
 result += f'\nYou will turn one hudred years old in {century}.'
-result += '\n'
+result += '\n' # for formatting - makes it easier to read
 
 # Extra number 1 ===============
 
 # Ask the user for the number fo copies they would like
+copies = int(input('How many copies would you like? '))
 
 # Print the copies of the result
+for i in range(copies):
+    print(result)

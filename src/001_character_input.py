@@ -26,6 +26,10 @@ name = input('Enter your name: ')
 # Ask the user for their age
 age = input('Enter your age: ')
 # calculate the year they will turn 100 years old
-
+#  1. Calc how much time is left until 100 years old
+#  2. Add time left to this year.
+#  !!! Resolution is one year. Results may wobble.
+century = (100 - int(age)) + int(dt.date.today().year)
 # print the message
 print(f'Your name is {name} and you are {age} years old.')
+print(f'You will turn one hudred years old in {century}.')

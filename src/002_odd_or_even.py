@@ -18,25 +18,26 @@ number to divide by (check). If check divides evenly into num, tell that to
 the user. If not, print a different appropriate message.
 """
 
-# ask the user for a number
-num = int(input('Enter a number: '))
+def is_even(num):
+    # determine if odd or even
+    return 'even' if (num % 2 == 0) else 'odd'
 
-# determine if odd or even
-result = 'even' if (num % 2 == 0) else 'odd'
+def is_divisible(num1, num2):
+    #check if the numbver is divisible by 4
+    return '' if (num1 % num2 == 0) else 'not '
 
-#check if the numbver is divisible by 4
-div_by_4 = '' if (num % 4 == 0) else 'not '
+def get_a_number():
+    # ask the user for a number
+    return int(input('Enter a number: '))
+
+num = get_a_number()
 
 # display the result
-print(f'{num} is an {result} number and is {div_by_4}divisible by 4.')
+print(f'{num} is an {is_even(num)} number and is {is_divisible(num, 4)}divisible by 4.')
 
 # ask for two numbers
-num1 = int(input('Enter a number: '))
-num2 = int(input('Enter another number: '))
-print (f'You entered {num1} and {num2}.')
-
-# test to see if num1 is divisble by num2
-result = '' if (num1 % num2 == 0) else 'not '
+num1 = get_a_number()
+num2 = get_a_number()
 
 # display result
-print(f'{num1} is {result}divisble by {num2}.')
+print(f'{num1} is {is_divisible(num1, num2)}divisble by {num2}.')

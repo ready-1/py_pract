@@ -32,3 +32,12 @@ for e in list_1:
     if e < 5:
         print(f'{e} is less than 5')
 
+# Extra 1
+# make a new empty list
+list_2 = []
+# loop through list_1 and add vals greateer than 5 to the new list
+for e in list_1:
+    if e < 5:
+        list_2.append(e)
+# print the result
+print(f'The values less than 5: {list_2}')

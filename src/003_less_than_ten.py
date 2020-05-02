@@ -25,6 +25,9 @@ from the original list a that are smaller than that number given by the user.
 #the original list
 list_1 = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 
+# show the list to the user
+print(f'\nThe original list: {list_1}\n')
+
 # Intial spec
 #print all the elements less than 5
 print('As individual items:')
@@ -40,7 +43,7 @@ for e in list_1:
     if e < 5:
         list_2.append(e)
 # print the result
-print(f'Extra 1: As a list: {list_2}')
+print(f'\nExtra 1: As a list: {list_2}')
 
 # Extra 2
 # make a new list using a comprehension
@@ -49,7 +52,7 @@ print(f'Extra 2: In one line of code: {list_3}')
 
 # Extra 3
 # Ask the user for a number to filter against.
-user_num = int(input('Enter a number: '))
+user_num = int(input('\nEnter a number: '))
 # make a new list useing the user's input
 list_4 = [e for e in list_1 if (e < user_num)]
-print(f'Extra 3: All the numbers less than {user_num}: {list_4}')
+print(f'Extra 3: All the numbers less than {user_num}: {list_4}\n')

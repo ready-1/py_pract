@@ -13,3 +13,5 @@ My preferred OS is Mac, although I have an affinity for anything POSIX.  I keep 
 ## The Projects
 The first 36 are from [practicepython.org](http://www.practicepython.org/)
 1. [Character Input](http://www.practicepython.org/exercise/2014/01/29/01-character-input.html)
+2. [Odd or Even](http://www.practicepython.org/exercise/2014/02/05/02-odd-or-even.html)
+

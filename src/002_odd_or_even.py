@@ -20,8 +20,13 @@ the user. If not, print a different appropriate message.
 
 # ask the user for a number
 num = int(input('Enter a number: '))
+
 # determine if odd or even
 result = 'even' if (num % 2 == 0) else 'odd'
+
+#check if the numbver is divisible by 4
+div_by_4 = '' if (num % 4 == 0) else 'not '
+
 # display the result
-print(f'{num} is an {result} number.')
+print(f'{num} is an {result} number and is {div_by_4}divisible by 4.')
 

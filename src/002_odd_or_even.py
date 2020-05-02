@@ -30,3 +30,13 @@ div_by_4 = '' if (num % 4 == 0) else 'not '
 # display the result
 print(f'{num} is an {result} number and is {div_by_4}divisible by 4.')
 
+# ask for two numbers
+num1 = int(input('Enter a number: '))
+num2 = int(input('Enter another number: '))
+print (f'You entered {num1} and {num2}.')
+
+# test to see if num1 is divisble by num2
+result = '' if (num1 % num2 == 0) else 'not '
+
+# display result
+print(f'{num1} is {result}divisble by {num2}.')

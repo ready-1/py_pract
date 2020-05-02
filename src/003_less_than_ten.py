@@ -40,4 +40,10 @@ for e in list_1:
     if e < 5:
         list_2.append(e)
 # print the result
-print(f'The values less than 5: {list_2}')
+print(f'Extra 1: As a list: {list_2}')
+
+# Extra 2
+# make a new list using a comprehension
+list_3 = [e for e in list_1 if (e < 5)]
+print(f'Extra 2: In one line of code: {list_3}')
+

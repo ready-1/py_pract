@@ -1,4 +1,4 @@
-#!../
+#!../bin/python
 
 
 """002_odd_or_even.py
@@ -19,8 +19,9 @@ the user. If not, print a different appropriate message.
 """
 
 # ask the user for a number
-
+num = int(input('Enter a number: '))
 # determine if odd or even
-
+result = 'even' if (num % 2 == 0) else 'odd'
 # display the result
+print(f'{num} is an {result} number.')
 

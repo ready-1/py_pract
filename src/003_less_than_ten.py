@@ -22,4 +22,13 @@ from the original list a that are smaller than that number given by the user.
 
 """
 
-print("Hello World!  This is exercise 003_less_than_ten.py")
+#the original list
+list_1 = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+
+# Intial spec
+#print all the elements less than 5
+print('As individual items:')
+for e in list_1:
+    if e < 5:
+        print(f'{e} is less than 5')
+

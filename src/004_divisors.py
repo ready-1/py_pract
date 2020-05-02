@@ -12,6 +12,13 @@ divisor of 26 because 26 / 13 has no remainder.)
 
 """
 
-print('Hello world! 004_divisors.py')
+# get a number from the user
+num = int(input("\nEnter a number: "))
+
+results = [] # the list of divisors
 
 
+
+
+
+print(f'\nYou entered {num} and it\'s dividors are {results}.\n\n')

@@ -17,8 +17,14 @@ num = int(input("\nEnter a number: "))
 
 results = [] # the list of divisors
 
-
-
+# loop over the range of numbers from 1 to num + 1
+# we don't want to divide by zero and we want to account
+# for num/num = 1
+for i in range(1, num + 1):
+    #test if i is a divisor
+    if (num % i == 0):
+        # if yes, then add it to the list
+        results.append(i)
 
 
 print(f'\nYou entered {num} and it\'s dividors are {results}.\n\n')

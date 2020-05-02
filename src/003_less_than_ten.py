@@ -47,3 +47,9 @@ print(f'Extra 1: As a list: {list_2}')
 list_3 = [e for e in list_1 if (e < 5)]
 print(f'Extra 2: In one line of code: {list_3}')
 
+# Extra 3
+# Ask the user for a number to filter against.
+user_num = int(input('Enter a number: '))
+# make a new list useing the user's input
+list_4 = [e for e in list_1 if (e < user_num)]
+print(f'Extra 3: All the numbers less than {user_num}: {list_4}')

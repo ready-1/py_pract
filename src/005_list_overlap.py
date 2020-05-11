@@ -21,5 +21,21 @@ Extras:
 
 """
 
-print('Hello World! This is 005_list_overlap')
+# Primary exercise ========
+# make a couple of lists
+list_a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+list_b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+results = []
+
+# iterate over one list
+for i in list_a:
+    # check to see if the current list item is in the other list
+    if (list_b.count(i) > 0):
+    # if it is in the other list, then check if it is already in our results
+        if (results.count(i) == 0):
+            # if not in results, then add to results
+            results.append(i)
+
+# print the results
+print(f'The lists overlap on the following items: {results}')
 

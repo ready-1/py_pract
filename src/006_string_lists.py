@@ -21,5 +21,10 @@ for c in user_string:
     reversed_string = c + reversed_string
 
 # compare the two strings
+if (user_string == reversed_string):
+    result = 'is'
+else:
+    result = 'is not'
 
 # display the results
+print(f'Your string \"{user_string}\" {result} a palindrome.')

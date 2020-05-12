@@ -21,7 +21,7 @@ for c in user_string:
     reversed_string = c + reversed_string
 
 # compare the two strings
-if (user_string == reversed_string):
+if (user_string.lower() == reversed_string.lower()):
     result = 'is'
 else:
     result = 'is not'

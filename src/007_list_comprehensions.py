@@ -19,4 +19,5 @@ b = []
 # check eveness and put evens in b
 b = [i for i in a if (i%2 == 0)]
 
-print(b)
+# display the result
+print(f'\nThe even numbers in {a} are {b}\n')

@@ -10,4 +10,11 @@ or not. (A palindrome is a string that reads the same forwards and backwards.)
 
 """
 
-print('Hello World! This is 006_string_lists.py')
+# ask the user for a string
+user_string = input('Enter a string: ')
+
+# create a reversed string
+
+# compare the two strings
+
+# display the results

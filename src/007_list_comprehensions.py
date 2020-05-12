@@ -12,4 +12,11 @@ has only the even elements of this list in it.
 
 """
 
-print('Hello World! This is 007_list_comprehensions.py')
+# make some vars
+a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+b = []
+
+# check eveness and put evens in b
+b = [i for i in a if (i%2 == 0)]
+
+print(b)

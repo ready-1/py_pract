@@ -10,10 +10,15 @@ or not. (A palindrome is a string that reads the same forwards and backwards.)
 
 """
 
+# init some vars
+reversed_string = ''
+
 # ask the user for a string
 user_string = input('Enter a string: ')
 
 # create a reversed string
+for c in user_string:
+    reversed_string = c + reversed_string
 
 # compare the two strings
 

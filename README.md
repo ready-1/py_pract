@@ -19,4 +19,4 @@ The first 36 are from [practicepython.org](http://www.practicepython.org/)
 4. [Divisors](http://www.practicepython.org/exercise/2014/02/26/04-divisors.html) - [Source](https://github.com/ready-1/py_pract/blob/master/src/004_divisors.py)
 5. [List Overlap](http://www.practicepython.org/exercise/2014/03/05/05-list-overlap.html) - [Source](https://github.com/ready-1/py_pract/blob/master/src/005_list_overlap.py)
 6. [String Lists](https://www.practicepython.org/exercise/2014/03/12/06-string-lists.html) - [Soure](https://github.com/ready-1/py_pract/blob/master/src/006_string_lists.py)
-
+7. [List Comprehensions](https://www.practicepython.org/exercise/2014/03/19/07-list-comprehensions.html) - [Source](https://github.com/ready-1/py_pract/blob/master/src/007_list_comprehensions.py)

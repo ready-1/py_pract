@@ -18,4 +18,5 @@ The first 36 are from [practicepython.org](http://www.practicepython.org/)
 3. [Less than 10](http://www.practicepython.org/exercise/2014/02/15/03-list-less-than-ten.html) - [Source](https://github.com/ready-1/py_pract/blob/master/src/003_less_than_ten.py)
 4. [Divisors](http://www.practicepython.org/exercise/2014/02/26/04-divisors.html) - [Source](https://github.com/ready-1/py_pract/blob/master/src/004_divisors.py)
 5. [List Overlap](http://www.practicepython.org/exercise/2014/03/05/05-list-overlap.html) - [Source](https://github.com/ready-1/py_pract/blob/master/src/005_list_overlap.py)
+6. [String Lists](https://www.practicepython.org/exercise/2014/03/12/06-string-lists.html) - [Soure](https://github.com/ready-1/py_pract/blob/master/src/005_string_lists.py)
 

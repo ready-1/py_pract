@@ -40,6 +40,9 @@ for i in list_a:
             results.append(i)
 
 # print the results
+print('\nPrimary Task = Find overlaps')
+print(f'List A: {list_a}')
+print(f'List B: {list_b}')
 print(f'The lists overlap on the following values: {results}')
 
 # Extra #1 =================
@@ -68,9 +71,33 @@ for i in list_a:
 results.sort()
 
 # display the results
+print('\nExtra 1 = Randomness')
 print(f'List Length: {random_list_length}')
 print(f'Max List Value: {max_list_value}')
 print(f'List A: {list_a}')
 print(f'List B: {list_b}')
 print(f'The lists overlap on the following values: {results}')
 
+# Extra #2 =================
+# vars
+list_a = []
+list_b = []
+results = []
+random_list_length = random.randint(1,25)
+max_list_value = 25
+
+# randomly create two lists of a random length up to 
+for i in range(random_list_length):
+    list_a.append(random.randint(1, max_list_value))
+    list_b.append(random.randint(1, max_list_value))
+
+# do the above in one line
+results = [i for i in set(list_a) if i in set(list_b)]
+
+# display the results
+print('\nExtra 2 = One Line')
+print(f'List Length: {random_list_length}')
+print(f'Max List Value: {max_list_value}')
+print(f'List A: {list_a}')
+print(f'List B: {list_b}')
+print(f'The lists overlap on the following values: {results}')

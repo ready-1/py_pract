@@ -25,4 +25,7 @@ upper_bound = 100
 lower_bound = 1
 # generate a random number
 rand_num = random.randint(lower_bound, upper_bound)
-print(rand_num)
+
+# get user input
+guess = int(input(f'Enter a guess between {lower_bound} and {upper_bound}: '))
+print(guess)

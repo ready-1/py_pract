@@ -18,4 +18,11 @@ Extras:
 
 """
 
-print('Hello World!  This is 009_guessing_game_one.py')
+import random
+
+# define the boundaries
+upper_bound = 100
+lower_bound = 1
+# generate a random number
+rand_num = random.randint(lower_bound, upper_bound)
+print(rand_num)

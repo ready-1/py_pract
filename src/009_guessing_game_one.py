@@ -21,11 +21,18 @@ Extras:
 import random
 
 # define the boundaries
-upper_bound = 100
+upper_bound = 9
 lower_bound = 1
 # generate a random number
 rand_num = random.randint(lower_bound, upper_bound)
 
 # get user input
 guess = int(input(f'Enter a guess between {lower_bound} and {upper_bound}: '))
-print(guess)
+
+if (guess < rand_num):
+    print(f'Your guess ({guess}) is too low.')
+elif (guess > rand_num):
+    print(f'Your guess ({guess}) is too high.')
+else:
+    print(f'You guessed correctly!!  {guess} is correct.')
+

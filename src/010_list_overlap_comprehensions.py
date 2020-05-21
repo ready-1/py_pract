@@ -6,6 +6,7 @@ Take two lists, say for example these two:
 
 	a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 	b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
 and write a program that returns a list that contains only the elements 
 that are common between the lists (without duplicates). Make sure your 
 program works on two lists of different sizes. Write this in one line of 
@@ -25,6 +26,20 @@ Randomly generate two lists to test this
 
 """
 
-print('Hello World! This is 010_list_overlap_comprehensions.py')
+# print('Hello World! This is 010_list_overlap_comprehensions.py')
+
+import random
+
+
+# Initial Spec
+list_a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+list_b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+result = list(set([a for a in list_a for b in list_b if (a == b)]))
+
+print(f'List A: {list_a}')
+print(f'List B: {list_b}')
+print(f'The common values are: {result}')
+
 
 

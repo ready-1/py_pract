@@ -35,30 +35,46 @@ import random
 list_a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 list_b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 
+# use a list comprehension to find the common values
+# then use set()to get the unique values
+# then use list() to convert to a list for the correct output format
 result = list(set([a for a in list_a for b in list_b if (a == b)]))
 
+# show the initial lists
 print(f'List A: {list_a}')
 print(f'List B: {list_b}')
+
+# show the common values
 print(f'The common values are: {result}')
 
 # Extra Credit
+# parameters
 max_length = 50 # the length of the lists
 max_val = 10 # the maximum value to generate
 
+# utility function to create random lists
+# feed it a maximum length and maximum value and it spits out a list 
+# of random values within the spec 
 def make_list(length, val):
     new_list = []
     for i in range(0,random.randint(1,length)):
         new_list.append(random.randint(1, val))
     return new_list
 
+# comparison code from above moved to a function
 def compare_lists(list_a, list_b):
     return list(set([a for a in list_a for b in list_b if (a == b)]))
 
+# create out two lists of random values and length
 list_a = make_list(max_length, max_val)
 list_b = make_list(max_length, max_val)
 
+# display the results.
 print('\nExtra Credit!\n')
 print(f'List A: {list_a}')
 print(f'List B: {list_b}')
+
+# the actual list comparison happens inside the print statement since 
+# there is no need to do anything else with the resulting list of common values
 print(f'The common values are: {compare_lists(list_a, list_b)}\n')
 

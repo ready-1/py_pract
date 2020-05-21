@@ -41,5 +41,24 @@ print(f'List A: {list_a}')
 print(f'List B: {list_b}')
 print(f'The common values are: {result}')
 
+# Extra Credit
+max_length = 50 # the length of the lists
+max_val = 10 # the maximum value to generate
 
+def make_list(length, val):
+    new_list = []
+    for i in range(0,random.randint(1,length)):
+        new_list.append(random.randint(1, val))
+    return new_list
+
+def compare_lists(list_a, list_b):
+    return list(set([a for a in list_a for b in list_b if (a == b)]))
+
+list_a = make_list(max_length, max_val)
+list_b = make_list(max_length, max_val)
+
+print('\nExtra Credit!\n')
+print(f'List A: {list_a}')
+print(f'List B: {list_b}')
+print(f'The common values are: {compare_lists(list_a, list_b)}\n')
 

@@ -65,7 +65,7 @@ def make_list(length, val):
 def compare_lists(list_a, list_b):
     return list(set([a for a in list_a for b in list_b if (a == b)]))
 
-# create out two lists of random values and length
+# create our two lists of random values and length
 list_a = make_list(max_length, max_val)
 list_b = make_list(max_length, max_val)
 

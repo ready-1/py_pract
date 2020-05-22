@@ -29,7 +29,12 @@ list_b.append(list_a[-1])
 # display the results
 print(f'Using index values, the first and last values are {list_b}')
 
-print('Done.')
+# using slicing
+list_b = list_a[::len(list_a) - 1]
+print(f'Using slicing, the first and last values are {list_b}')
+
+
+print('Done.\n')
 
 
 

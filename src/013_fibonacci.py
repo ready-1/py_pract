@@ -17,3 +17,20 @@ The sequence looks like this: 1, 1, 2, 3, 5, 8, 13, …)
 
 print('Hello World! This is 013_fibonacci.py\n')
 
+# get input
+length = int(input("Enter a length for the Fibonacci series: "))
+
+# iterative solution
+series = []
+
+for i in range(length):
+    if len(series) < 2:
+        series.append(1)
+    else:
+        n1 = series[-1] # get the last value
+        n2 = series[-2] # get the next to last value
+        series.append(n1 + n2) # append the sum of the last two vlaues to the series
+
+print(f'Fibonacci series created iteratiely: {series}')
+
+

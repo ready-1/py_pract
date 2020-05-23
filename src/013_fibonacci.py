@@ -33,4 +33,32 @@ for i in range(length):
 
 print(f'Fibonacci series created iteratiely: {series}')
 
+# recursive solution
+series = []
+
+# the recursive function
+def fib(n, a = 0, b = 1):
+    # get access to the series list
+    global series
+    # take care of the first call
+    if a == 0:
+        series.append(1)
+    #create the next fibonacci number
+    c = a + b
+    # add it to the series
+    series.append(c)
+    # checl to see if the series is complete
+    # if it is, stop the recursion
+    if len(series) == length:
+        return
+    # if it's not, calculate the next number via recursion
+    else:
+        return fib(n - 1, b, c )
+
+# call the recursive function
+fib(length)
+# display the results
+print(f'Fibonacci series created recursively: {series}')
+print()
+
 

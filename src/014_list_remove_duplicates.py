@@ -34,12 +34,15 @@ def de_duplicator(raw_list):
             result.append(i)
     return result
 
-
+def set_inator(raw_list):
+    return set(raw_list)
 
 # using a for loop
 print('Remove duplicates using a for loop:')
 print(de_duplicator(get_user_list()))
-
-
-
+print()
+# using sets
+print('Remove duplicates using set():')
+print(set_inator(get_user_list()))
+print()
 

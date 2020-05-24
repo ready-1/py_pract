@@ -21,4 +21,10 @@ Extras:
 
 print('Hello World! This is 014_list_remove_duplicates.py\n')
 
+# ask the user for a list of values and split it into a list.
+def get_user_list():
+    raw_vals = input('Enter a series of values separated by spaces: ')
+    return raw_vals.split()
 
+
+print(get_user_list())

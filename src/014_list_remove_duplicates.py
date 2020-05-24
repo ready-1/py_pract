@@ -26,5 +26,20 @@ def get_user_list():
     raw_vals = input('Enter a series of values separated by spaces: ')
     return raw_vals.split()
 
+# use a for loop to find the duplicates
+def de_duplicator(raw_list):
+    result = []
+    for i in raw_list:
+        if not i in result:
+            result.append(i)
+    return result
 
-print(get_user_list())
+
+
+# using a for loop
+print('Remove duplicates using a for loop:')
+print(de_duplicator(get_user_list()))
+
+
+
+

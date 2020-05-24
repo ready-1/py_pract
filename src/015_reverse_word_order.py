@@ -19,6 +19,23 @@ shown back to me.
 
 """
 
+# whoami?
 print('Hello World! This is 015_reverse_word_order.py\n')
 
+# condense the prompt into a function call.
+def get_inp():
+    return input('Enter a string of words seperated by spaces: ')
+
+# from the inside out:
+# 1. get_inp() ask for a string of words
+# 2. get_inp().splt() returns a list of words split on whitespace
+# 3. reversed(get_inp().splt()) returns a reversed version of the list
+# 4. " ".join(reversed(get_inp().splt())) puts it all back together.
+# Neat.  Tidy.  All in one line. (Except for the prompt.)
+print(f'The reversed string: {" ".join(reversed(get_inp().split()))}')
+
+
+
+# breathing room
+print()
 

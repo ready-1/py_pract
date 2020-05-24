@@ -22,7 +22,7 @@ shown back to me.
 # whoami?
 print('Hello World! This is 015_reverse_word_order.py\n')
 
-# condense the prompt into a function call.
+# condense the prompt into a function call for code formatting.
 def get_inp():
     return input('Enter a string of words seperated by spaces: ')
 

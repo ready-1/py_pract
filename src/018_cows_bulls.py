@@ -1,5 +1,7 @@
 #!../bin/python
 
+import random
+
 """018_cows_bulls.py
 
 This is a Python learning project from:
@@ -29,5 +31,30 @@ could look like this:
 """
 
 print('Hello World! This is 018_cows_bulls.py\n')
+
+guesses = 0
+
+# generate a 4-digit integer
+pig = ''
+for i in range(0,4):
+    pig += str(random.randint(0,9))
+
+while True:
+    cows = 0
+    bulls = 0
+    guesses += 1
+    usr_str = input('Enter a four digit number: ')
+    for i in range(0,4):
+        if usr_str[i] == pig[i]:
+            cows += 1
+        else:
+            bulls += 1
+    print(f'guesses: {guesses}')
+    if cows == 4:
+        print(f'{cows} cows!  You win!!')
+        break
+    else:
+        print(f'cows: {cows}  bulls: {bulls}\n')
+
 
 

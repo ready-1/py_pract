@@ -34,6 +34,6 @@ The first 20 are from [practicepython.org](http://www.practicepython.org/)
 19. [Recursive Factorial](https://edabit.com/challenge/x6McEkHer8A3Hke2q) - [Source](https://github.com/ready-1/py_pract/blob/master/src/019_edabit_algo1_recursion_1.py)
 20. [Recursive Euclidean](https://edabit.com/challenge/2SPQuzZTskcBpXpv4) - [Source](https://github.com/ready-1/py_pract/blob/master/src/020_edabit_algo2_euclidean.py)
 
-There is a folder with projects from exercism.io [here].(https://github.com/ready-1/py_pract/blob/master/src/exercism)  You can find my solutions and mentor comments [here](https://exercism.io/profiles/ready-1)
+There is a folder with projects from exercism.io [here](https://github.com/ready-1/py_pract/blob/master/src/exercism).  You can find my solutions and mentor comments [here](https://exercism.io/profiles/ready-1)
 
 

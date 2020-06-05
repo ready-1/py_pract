@@ -12,7 +12,7 @@ This repo holds a few projects I have completed to learn Python.
 - My preferred OS is Mac, although I have an affinity for anything POSIX.  I keep a Windows machine close at hand, but don't really do any dev work on it.
 
 ## The Projects
-The first 36 are from [practicepython.org](http://www.practicepython.org/)
+The first 20 are from [practicepython.org](http://www.practicepython.org/)
 1. [Character Input](http://www.practicepython.org/exercise/2014/01/29/01-character-input.html) - [Source](https://github.com/ready-1/py_pract/blob/master/src/001_character_input.py)
 2. [Odd or Even](http://www.practicepython.org/exercise/2014/02/05/02-odd-or-even.html) - [Source](https://github.com/ready-1/py_pract/blob/master/src/002_odd_or_even.py)
 3. [Less than 10](http://www.practicepython.org/exercise/2014/02/15/03-list-less-than-ten.html) - [Source](https://github.com/ready-1/py_pract/blob/master/src/003_less_than_ten.py)
@@ -33,3 +33,7 @@ The first 36 are from [practicepython.org](http://www.practicepython.org/)
 18. [Cows and Bulls](http://www.practicepython.org/exercise/2014/07/05/18-cows-and-bulls.html) - [Source](https://github.com/ready-1/py_pract/blob/master/src/018_cows_bulls.py)
 19. [Recursive Factorial](https://edabit.com/challenge/x6McEkHer8A3Hke2q) - [Source](https://github.com/ready-1/py_pract/blob/master/src/019_edabit_algo1_recursion_1.py)
 20. [Recursive Euclidean](https://edabit.com/challenge/2SPQuzZTskcBpXpv4) - [Source](https://github.com/ready-1/py_pract/blob/master/src/020_edabit_algo2_euclidean.py)
+
+There is a folder with projects from exercism.io [here].(https://github.com/ready-1/py_pract/blob/master/src/exercism)  You can find my solutions and mentor comments [here](https://exercism.io/profiles/ready-1)
+
+

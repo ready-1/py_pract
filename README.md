@@ -36,4 +36,5 @@ The first 20 are from [practicepython.org](http://www.practicepython.org/)
 
 There is a folder with projects from exercism.io [here](https://github.com/ready-1/py_pract/blob/master/src/exercism).  You can find my solutions and mentor comments [here](https://exercism.io/profiles/ready-1)
 
+[Here's](https://github.com/ready-1/py_pract/blob/master/src/pwd_cracker/pwd_cracker.py) a little password cracking demo I did for my daughter's science project.
 
